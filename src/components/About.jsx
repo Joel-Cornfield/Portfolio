@@ -40,7 +40,7 @@ const About = () => {
                         }
                     </div>
                     <a 
-                        href="/Portfolio/Resume-Joel-Cornfield.pdf"
+                        href="/Resume_JoelCornfield.pdf" 
                         download="Joel-Cornfield-Resume.pdf"
                         className='px-8 py-4 bg-zinc-700 text-white rounded-full cursor-pointer transition duration-300 hover:bg-zinc-900'
                     >

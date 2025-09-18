@@ -34,7 +34,7 @@ const Work = () => {
                 )}
                 {project.odin && (
                   <span className='inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold mb-2 px-2 py-1 rounded-full'>
-                    The Odin Project 
+                    The Odin Project
                   </span>
                 )}
                 <p className='text-slate-900 text-sm'>{project.description}</p>
@@ -66,8 +66,10 @@ const Work = () => {
 
                   {project.demo && (
                     <a
-                      href={`/Portfolio/${project.demo}`}
-                      download={project.demo}
+                      href={`/${project.demo}`} // ✅ Just root-relative path
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      download
                       className='flex items-center gap-2 px-4 py-2 border border-teal-600 rounded-full text-teal-600 hover:bg-teal-600 hover:text-white transition'
                     >
                       <FaDownload /> Demo
