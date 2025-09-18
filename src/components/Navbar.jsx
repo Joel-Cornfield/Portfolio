@@ -20,7 +20,7 @@ const Navbar = () => {
                 {/* Buttons */}
                 <div>
                     <a
-                        href="/Resume_JoelCornfield.pdf"
+                        href="/Portfolio/Resume_JoelCornfield.pdf"
                         download="Joel-Cornfield-Resume.pdf"
                         className='px-10 py-4 border border-zinc-800 rounded-full flex items-center gap-2 cursor-pointer text-slate-500 hover:text-slate-800 hover:translate-y-1 transition duration-300'
                     >
