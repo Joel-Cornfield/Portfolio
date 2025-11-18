@@ -1,6 +1,6 @@
 import React from 'react'
 import { projectData } from '../assets/assets'
-import { FaGithub, FaDownload } from 'react-icons/fa'
+import { FaGithub, FaDownload, FaLink } from 'react-icons/fa'
 
 const Work = () => {
   return (
@@ -73,6 +73,17 @@ const Work = () => {
                       className='flex items-center gap-2 px-4 py-2 border border-teal-600 rounded-full text-teal-600 hover:bg-teal-600 hover:text-white transition'
                     >
                       <FaDownload /> Demo
+                    </a>
+                  )}
+
+                  {project.live_link && (
+                    <a
+                      href={project.live_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className='flex items-center gap-2 px-4 py-2 border border-teal-600 rounded-full text-teal-600 hover:bg-teal-600 hover:text-white transition'
+                    >
+                      <FaLink /> Live Demo
                     </a>
                   )}
                 </div>

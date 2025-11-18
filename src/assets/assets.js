@@ -7,6 +7,7 @@ import project4 from '../assets/project4.png'
 import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
 import project7 from '../assets/project7.png'
+import project8 from '../assets/project8.png'
 import { FaProjectDiagram } from 'react-icons/fa'
 
 export const assets = {
@@ -128,6 +129,31 @@ export const projectData = [
         ],
         github: "https://github.com/Joel-Cornfield/etch-a-sketch",
         odin: true,
+    },
+    {
+        title: "GreenCart — Online Supermarket Ordering App",
+        description: "Full-stack online supermarket built with React frontend (Vite + Tailwind) and Node/Express backend with MongoDB. Features user and seller authentication (JWT + cookies), product management (images, price, stock, weight), interactive user ratings, cart and checkout (COD + Stripe), address management, order history, and an admin/seller dashboard. Emphasis on UX with responsive design, client-side filters/sorting, and server-side data validation.",
+        image: project8,
+        tech: [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mongoose",
+        "Axios",
+        "Cloudinary",
+        "Stripe",
+        "JWT Authentication",
+        "React Router",
+        "REST API",
+        "Git/GitHub"
+        ],
+        live_link: "https://greencart-one-sigma.vercel.app/",
+        github: "https://github.com/Joel-Cornfield/greencart", 
+        odin: false,
+        university: false,
     },
 ]
 
