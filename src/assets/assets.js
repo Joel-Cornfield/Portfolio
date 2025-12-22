@@ -8,6 +8,7 @@ import project5 from '../assets/project5.png'
 import project6 from '../assets/project6.png'
 import project7 from '../assets/project7.png'
 import project8 from '../assets/project8.png'
+import project9 from '../assets/project9.png'
 import { FaProjectDiagram } from 'react-icons/fa'
 
 export const assets = {
@@ -152,6 +153,29 @@ export const projectData = [
         ],
         live_link: "https://greencart-one-sigma.vercel.app/",
         github: "https://github.com/Joel-Cornfield/greencart", 
+        odin: false,
+        university: false,
+    },
+    {
+        title: "Booking System Web Application",
+        description: "A full-stack booking system for fitness classes and personal training sessions. Features user authentication with JWT, class/session management, real-time availability, and a responsive React frontend integrated with a .NET 10 backend and PostgreSQL database. Includes role-based access for Members, Trainers, and Admins, with Cloudinary image hosting and secure token-based authentication.",
+        image: project9, 
+        tech: [
+            "React", 
+            "Vite", 
+            "Tailwind CSS", 
+            "JavaScript", 
+            ".NET 10", 
+            "C#", 
+            "PostgreSQL", 
+            "Entity Framework Core", 
+            "JWT Authentication", 
+            "Role-Based Access Control", 
+            "Cloudinary", 
+            "REST API"
+        ],
+        live_link: "https://bookingsystemfrontend.onrender.com",
+        github: "https://github.com/Joel-Cornfield/BookingSystem",
         odin: false,
         university: false,
     },
