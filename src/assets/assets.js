@@ -18,21 +18,51 @@ export const assets = {
 export const navMenu = ['Home', 'Work', 'Skills', 'About', 'Contact']
 
 export const skillsData = [
-    {
-        icon: FaMicrochip,
-        title: 'Backend',
-        technologies: ['Python', 'Node.js', 'SQL', 'Postgres', 'RDMBS', 'Flask', 'Express', 'APIs', 'HTTP']
-    },
-    {
-        icon: FaReact, 
-        title: 'Frontend',
-        technologies: ['React', 'HTML', 'CSS', 'Bootstrap', 'TailwindCSS', 'JavaScript', 'Jinja', 'AJAX', 'HTTP']
-    },
-    {
-        icon: FaCode,
-        title: 'DevOps',
-        technologies: ['Linux', 'Git', 'Github', 'CI/CD']
-    }
+  {
+    icon: FaMicrochip,
+    title: 'Backend',
+    technologies: [
+      'Node.js',
+      'Express',
+      'Python',
+      '.NET (C#)',
+      'REST APIs',
+      'JWT Authentication',
+      'Role-Based Access Control',
+      'Prisma',
+      'Entity Framework Core'
+    ]
+  },
+  {
+    icon: FaReact,
+    title: 'Frontend',
+    technologies: [
+      'React',
+      'Vite',
+      'JavaScript (ES6+)',
+      'HTML5',
+      'CSS3',
+      'Tailwind CSS',
+      'Styled Components',
+      'Framer Motion',
+      'React Router'
+    ]
+  },
+  {
+    icon: FaCode,
+    title: 'Databases & DevOps',
+    technologies: [
+      'PostgreSQL',
+      'MongoDB',
+      'Mongoose',
+      'SQL',
+      'Git & GitHub',
+      'Linux',
+      'CI/CD',
+      'Cloudinary',
+      'Stripe'
+    ]
+  }
 ]
 
 export const projectData = [
