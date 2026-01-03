@@ -2,12 +2,12 @@
 
 A modern, responsive personal portfolio website built with **React**, **Vite**, and **Tailwind CSS** to showcase my projects, skills, and background as a Computer Science graduate.
 
-🌐 **Live Site:** https://joelcornfield.github.io/Portfolio  
-📄 **Resume:** Available for download directly from the site
+**Live Site:** https://joelcornfield.github.io/Portfolio  
+**Resume:** Available for download directly from the site
 
 ---
 
-## ✨ Features
+## Features
 
 - Responsive, mobile-first design
 - Smooth scrolling navigation
@@ -24,7 +24,7 @@ A modern, responsive personal portfolio website built with **React**, **Vite**, 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Frontend**
 - React
