@@ -6,10 +6,20 @@ export const downloadFile = async (filePath, fileName) => {
   try {
     const response = await fetch(filePath);
     if (!response.ok) {
-      throw new Error(`Failed to fetch file: ${response.statusText}`);
+      console.error(`Failed to fetch file: ${response.status} ${response.statusText}`);
+      alert('Failed to download file. The file may not be available.');
+      return;
     }
     
     const blob = await response.blob();
+    
+    // Verify we got a blob with content
+    if (!blob || blob.size === 0) {
+      console.error('Downloaded file is empty');
+      alert('Failed to download file. The file appears to be empty.');
+      return;
+    }
+    
     const url = window.URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
@@ -20,6 +30,9 @@ export const downloadFile = async (filePath, fileName) => {
     window.URL.revokeObjectURL(url);
   } catch (error) {
     console.error('Download error:', error);
-    alert('Failed to download file. Please try again.');
+    // Only show alert on actual errors, not network issues during render
+    if (error.name !== 'AbortError') {
+      alert('Failed to download file. Please try again.');
+    }
   }
 };
