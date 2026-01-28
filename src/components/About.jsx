@@ -1,8 +1,13 @@
 import React from 'react'
 import { profileData, assets } from '../assets/assets'
 import { FaCode } from 'react-icons/fa'
+import { downloadFile } from '../utils/downloadHelper'
 
 const About = () => {
+  const handleResumeDownload = (e) => {
+    e.preventDefault();
+    downloadFile('/Portfolio/Resume_JoelCornfield.pdf', 'Joel-Cornfield-Resume.pdf');
+  };
   return (
     <div id='About' className='py-20'>
         <div className='max-w-7x; mx-auto px-6'>
@@ -39,13 +44,12 @@ const About = () => {
                             ))
                         }
                     </div>
-                    <a 
-                        href="/Resume_JoelCornfield.pdf" 
-                        download="Joel-Cornfield-Resume.pdf"
+                    <button 
+                        onClick={handleResumeDownload}
                         className='px-8 py-4 bg-zinc-700 text-white rounded-full cursor-pointer transition duration-300 hover:bg-zinc-900'
                     >
                         Download Resume
-                    </a>
+                    </button>
 
                 </div>
                 <div className='order-1 lg:order-2 flex justify-center'>
