@@ -53,7 +53,7 @@ const ProjectGrid = ({ projects }) => (
 
             {project.demo && (
               <button
-                onClick={downloadFile(`/${project.demo}`, `/${project.demo}`)}
+                onClick={() => downloadFile(`/Portfolio/${project.demo}`, project.demo.split('/').pop())}
                 className='flex items-center gap-2 px-4 py-2 border border-teal-600 rounded-full text-teal-600 hover:bg-teal-600 hover:text-white transition'
               >
                 <FaDownload /> Demo
