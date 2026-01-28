@@ -1,6 +1,7 @@
 import React from 'react'
 import { projectData } from '../assets/assets'
 import { FaGithub, FaDownload, FaLink } from 'react-icons/fa'
+import { downloadFile } from '../utils/downloadHelper'
 
 const ProjectGrid = ({ projects }) => (
   <div className='grid grid-cols-1 md:grid-cols-4 gap-6 mb-16'>
