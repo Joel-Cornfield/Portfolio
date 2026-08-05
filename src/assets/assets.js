@@ -9,6 +9,7 @@ import project6 from '../assets/project6.png'
 import project7 from '../assets/project7.png'
 import project8 from '../assets/project8.png'
 import project9 from '../assets/project9.png'
+import project10 from '../assets/project10.png'
 import { FaProjectDiagram } from 'react-icons/fa'
 
 export const assets = {
@@ -126,6 +127,28 @@ export const projectData = [
     university: true,
     category: "featured",
   },
+  {
+    title: "Task Manager",
+    description: "A full-stack collaborative task management application, inspired by trello, built with React, Node.js, Express, and PostgreSQL.",
+    image: project10,
+    tech: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "JWT Authentication",
+      "bcrypt",
+      "Multer",
+      "Context API",
+      "Axios",
+      "CSS",
+      "Vite"
+    ],
+    live_link: "https://taskmanagerfrontend-gtow.onrender.com/",
+    github: "https://github.com/Joel-Cornfield/TaskManager",
+    category: "featured",
+  },
+
 
   // =====================
   // UNIVERSITY PROJECTS
