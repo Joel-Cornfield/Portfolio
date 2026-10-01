@@ -15,7 +15,7 @@ const Hero = () => {
                         <span className='text-zinc-700'>Graduate</span>
                     </h1>
                     <p className='text-xl text-zinc-900 mb-6'> 
-                    Computer Science graduate passionate about building efficient and user-focused software. Skilled in Java, Python, and C, with experience in web development using React, Node.js, and Prisma. Always eager to learn and solve real-world challenges through technology.
+                    Computer Science graduate passionate about building practical, user-focused software. I’ve built full-stack applications using React, Node.js, Express, PostgreSQL, and .NET through personal and university projects, with experience integrating AI, authentication, APIs, and cloud services.
                     </p>
                     <div className='flex flex-col md:flex-row items-center gap-4'>
                         <button className='flex gap-2 items-center px-10 py-4 bg-black rounded-full text-slate-200 hover:text-white cursor-pointer'

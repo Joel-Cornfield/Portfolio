@@ -18,17 +18,13 @@ const About = () => {
                         <span>Me</span>
                     </h2>
                     <p class="text-lg text-slate-800 mb-4">
-                        I’m a <strong>Computer Science graduate</strong> from The University of Western Australia with a strong foundation in both software development 
-                        and problem-solving. Over the course of my studies and personal projects, I’ve developed proficiency 
-                        in <strong>Java, Python, and C</strong>, and built practical experience in  <strong>web development</strong> with React, Node.js, Prisma, and MongoDB.
+                        I’m a Computer Science graduate from The University of Western Australia with a strong foundation in software development and problem-solving. I’ve built full-stack applications using React, Node.js, Express, PostgreSQL, and .NET, with experience implementing authentication, REST APIs, database systems, cloud services, and AI integrations.
                     </p>
                     <p class="text-lg text-slate-800 mb-4">
-                        Beyond coding, I enjoy designing applications that prioritize <strong>usability and efficiency</strong>, from building AI agents and real-time applications at university 
-                        to full-stack web apps through self-directed learning like <em>The Odin Project</em>.
+                        My projects include an AI-powered meeting notes application, a collaborative task management platform, and a full-stack booking system. I’ve also worked with Python, Java, C, and modern web technologies through university and self-directed projects.
                     </p>
                     <p class="text-lg text-slate-800 mb-4">
-                        I’m passionate about <strong>continuous learning</strong> and thrive when tackling real-world challenges—whether 
-                        it’s applying algorithms, optimizing systems, or building intuitive user interfaces. 
+                        enjoy building software that is both practical and user-focused, and I'm particularly interested in opportunities where I can continue developing my skills while working on real-world software.
                     </p>
                     <div className='flex flex-col sm:flex-row items-center justify-between gap-6 mb-6'>
                         {

@@ -26,6 +26,8 @@ export const skillsData = [
     technologies: [
       'Node.js',
       'Express',
+      'TypeScript',
+      'JavaScript',
       'Python',
       '.NET (C#)',
       'REST APIs',
@@ -56,13 +58,12 @@ export const skillsData = [
     technologies: [
       'PostgreSQL',
       'MongoDB',
-      'Mongoose',
       'SQL',
+      'Neon',
       'Git & GitHub',
       'Linux',
       'CI/CD',
-      'Cloudinary',
-      'Stripe'
+      'Cloudinary'
     ]
   }
 ]
@@ -79,7 +80,6 @@ export const projectData = [
     tech: [
       "React",
       "TypeScript",
-      "Vite",
       "Node.js",
       "Express",
       "PostgreSQL",
@@ -276,7 +276,7 @@ export const profileData = [
     {
         icon: FaCode,
         title: 'Languages',
-        technologies: ['Java', 'Python', 'C', 'JavaScript']
+        technologies: ['JavaScript', 'TypeScript', 'Python', 'C#', 'Java', 'C']
     },
     {
         icon: FaSchool,
@@ -287,6 +287,6 @@ export const profileData = [
     {
         icon: FaProjectDiagram,
         title: 'Projects',
-        technologies: ['University projects', 'Individual projects', 'TheOdinProject']
+        technologies: ['University projects', 'Full-stack applications', 'TheOdinProject']
     }
 ]
