@@ -10,6 +10,7 @@ import project7 from '../assets/project7.png'
 import project8 from '../assets/project8.png'
 import project9 from '../assets/project9.png'
 import project10 from '../assets/project10.png'
+import project11 from '../assets/project11.png'
 import { FaProjectDiagram } from 'react-icons/fa'
 
 export const assets = {
@@ -71,6 +72,29 @@ export const projectData = [
   // FEATURED PROJECTS
   // =====================
   {
+    title: "MeetingMate",
+    description:
+      "Full-stack AI-powered meeting notes application that converts uploaded audio into transcripts, concise meeting summaries, and actionable tasks. Implemented secure authentication, cloud audio storage, Whisper-based transcription, Gemini AI integration, and PostgreSQL data persistence.",
+    image: project11,
+    tech: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Prisma",
+      "Python",
+      "faster-whisper",
+      "Gemini API",
+      "Cloudinary",
+      "JWT"
+    ],
+    live_link: "https://meetingmate-gn4o.onrender.com",
+    github: "https://github.com/Joel-Cornfield/MeetingMate",
+    category: "featured",
+  },
+  {
     title: "Booking System Web Application",
     description:
       "Full-stack booking platform for fitness classes and personal training. Designed REST APIs with JWT authentication and role-based access control for Members, Trainers, and Admins. Implemented real-time availability checks, relational data modelling with PostgreSQL, and a responsive React frontend.",
@@ -92,44 +116,9 @@ export const projectData = [
     category: "featured",
   },
   {
-    title: "GreenCart — Online Supermarket Ordering App",
-    description:
-      "Production-style full-stack e-commerce application with user, seller, and admin roles. Implemented authentication, product management, cart and checkout flow (Stripe + COD), cloud image storage, and server-side validation. Focused on UX, scalability, and clean API design.",
-    image: project8,
-    tech: [
-      "React",
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Stripe",
-      "Cloudinary",
-      "JWT",
-      "REST API"
-    ],
-    live_link: "https://greencart-one-sigma.vercel.app/",
-    github: "https://github.com/Joel-Cornfield/greencart",
-    category: "featured",
-  },
-  {
-    title: "Experimental Platform — Multimodal LLM in Road Safety",
-    description: "Collaborative research project applying red teaming techniques to evaluate multimodal large language models in road safety scenarios. My contributions included image and video preprocessing, overlay and filter pipelines, LLM API integration, and analysing model responses for decision-making accuracy.",
-    image: project1,
-    tech: [
-      "Python",
-      "Computer Vision",
-      "Image Processing",
-      "LLMs",
-      "API Integration",
-      "Data Analysis"
-    ],
-    demo: "Red_Teaming_CITS3200_Project.pdf",
-    github: "https://github.com/23348918/CITS3200-Group37",
-    university: true,
-    category: "featured",
-  },
-  {
     title: "Task Manager",
-    description: "A full-stack collaborative task management application, inspired by trello, built with React, Node.js, Express, and PostgreSQL.",
+    description:
+      "Full-stack collaborative task management application inspired by Trello. Features workspace management, task assignment, drag-and-drop task boards, authentication, profile images, and PostgreSQL persistence.",
     image: project10,
     tech: [
       "React",
@@ -146,6 +135,24 @@ export const projectData = [
     ],
     live_link: "https://taskmanagerfrontend-gtow.onrender.com/",
     github: "https://github.com/Joel-Cornfield/TaskManager",
+    category: "featured",
+  },
+  {
+    title: "Experimental Platform — Multimodal LLM in Road Safety",
+    description:
+      "Collaborative research project applying red teaming techniques to evaluate multimodal large language models in road safety scenarios. My contributions included image and video preprocessing, overlay and filter pipelines, LLM API integration, and analysing model responses for decision-making accuracy.",
+    image: project1,
+    tech: [
+      "Python",
+      "Computer Vision",
+      "Image Processing",
+      "LLMs",
+      "API Integration",
+      "Data Analysis"
+    ],
+    demo: "Red_Teaming_CITS3200_Project.pdf",
+    github: "https://github.com/23348918/CITS3200-Group37",
+    university: true,
     category: "featured",
   },
 
@@ -186,9 +193,29 @@ export const projectData = [
     category: "university",
   },
 
+
   // =====================
   // ADDITIONAL PROJECTS
   // =====================
+  {
+    title: "GreenCart — Online Supermarket Ordering App",
+    description:
+      "Full-stack e-commerce application built while following a development tutorial. Implemented and worked through user, seller, and admin functionality including authentication, product management, cart and checkout flows, Stripe payments, cloud image storage, and server-side validation.",
+    image: project8,
+    tech: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Stripe",
+      "Cloudinary",
+      "JWT",
+      "REST API"
+    ],
+    live_link: "https://greencart-one-sigma.vercel.app/",
+    github: "https://github.com/Joel-Cornfield/greencart",
+    category: "additional",
+  },
   {
     title: "Social Media Application",
     description:
@@ -263,4 +290,3 @@ export const profileData = [
         technologies: ['University projects', 'Individual projects', 'TheOdinProject']
     }
 ]
-
